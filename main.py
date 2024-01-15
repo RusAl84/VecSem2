@@ -7,6 +7,7 @@ import os
 from gensim.models import FastText
 from gensim.test.utils import common_texts
 
+
 def gen_model():
     name = 'test'
     corpList = pd.read_csv(f'corpuses/{name}.csv', names=['safeguards_txt'],
